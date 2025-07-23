@@ -51,10 +51,8 @@ export const Contact = () => {
 
     setIsSubmitting(true)
 
-    // Simulate API call
     await new Promise((resolve) => setTimeout(resolve, 2000))
 
-    // Reset form on success
     setFormData({ name: "", email: "", subject: "", message: "" })
     setIsSubmitting(false)
     alert("Message sent successfully!")
@@ -62,7 +60,6 @@ export const Contact = () => {
 
   const handleChange = (field) => (e) => {
     setFormData((prev) => ({ ...prev, [field]: e.target.value }))
-    // Clear error when user starts typing
     if (errors[field]) {
       setErrors((prev) => ({ ...prev, [field]: undefined }))
     }
@@ -72,7 +69,6 @@ export const Contact = () => {
     <div className="py-12 sm:py-16 md:py-20 lg:py-24 px-4 sm:px-8 md:px-16 lg:px-24 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
-          {/* Left Column - Contact Info */}
           <div className="space-y-8 sm:space-y-12">
             <div>
               <h3 className="text-teal-600 font-semibold text-lg sm:text-xl mb-2">Contact Us</h3>
@@ -88,7 +84,6 @@ export const Contact = () => {
             </div>
           </div>
 
-          {/* Right Column - Contact Form */}
           <div className="space-y-6 sm:space-y-8">
             <div>
               <h3 className="text-teal-600 font-semibold text-lg sm:text-xl mb-2">Have Question ?</h3>
