@@ -4,6 +4,8 @@ import { Offer } from "./components/Offer";
 import { Event } from "./components/cards/Event";
 import { About } from "./components/About";
 import { WhyChooseUs } from "./components/WhyChooseUs";
+import { Footer } from "./components/Footer";
+import { Mission } from "./components/Mission";
 
 function App() {
   const data = [
@@ -53,6 +55,8 @@ function App() {
         </div>
         <About/>
         <WhyChooseUs/>
+        <Mission/>
+        <Footer/>
       </div>
     </>
   );
