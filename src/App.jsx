@@ -2,6 +2,7 @@ import { Header } from "./components/Header";
 import { Welcome } from "./components/Welcome";
 import { Offer } from "./components/Offer";
 import { Event } from "./components/cards/Event";
+import { About } from "./components/About";
 
 function App() {
   const data = [
@@ -49,6 +50,7 @@ function App() {
             ))}
           </div>
         </div>
+        <About/>
       </div>
     </>
   );
