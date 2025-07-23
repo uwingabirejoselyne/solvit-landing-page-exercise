@@ -3,6 +3,7 @@ import { Welcome } from "./components/Welcome";
 import { Offer } from "./components/Offer";
 import { Event } from "./components/cards/Event";
 import { About } from "./components/About";
+import { WhyChooseUs } from "./components/WhyChooseUs";
 
 function App() {
   const data = [
@@ -51,6 +52,7 @@ function App() {
           </div>
         </div>
         <About/>
+        <WhyChooseUs/>
       </div>
     </>
   );
