@@ -23,7 +23,7 @@ export const Offer = () => {
   ]
 
   return (
-    <div className="py-12 sm:py-16 md:py-20 lg:py-24 px-4 sm:px-8 md:px-16 lg:px-24">
+    <div className="">
       <div className="max-w-7xl mx-auto">
         <div className="text-center space-y-4 sm:space-y-6 md:space-y-8 mb-12 sm:mb-16 md:mb-20">
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black leading-tight">
