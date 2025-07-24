@@ -47,7 +47,7 @@ export const WhyChooseUs = () => {
             <BenefitCard key={index} title={benefit.title} description={benefit.description} />
           ))}
 
-          <div className="w-full h-[300px] rounded-lg overflow-hidden">
+          <div className="w-full h-full rounded-lg overflow-hidden">
             <img
               src="https://icowork-static-prd.s3.amazonaws.com/media/spaces/89/_MG_1688_1.jpg"
               alt="Modern office workspace with pendant lights and seating areas"

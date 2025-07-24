@@ -2,7 +2,7 @@ import React from "react";
 
 export const About = () => {
   return (
-   <div className="py-12 sm:py-16 md:py-20 lg:py-24 px-4 sm:px-8 md:px-16 lg:px-24 bg-gray-50">
+   <div className="py-12 sm:py-16 md:py-20 lg:py-24 px-4 sm:px-8 md:px-16 lg:px-24 ">
       <div className="max-w-7xl mx-auto">
         <div className="relative">
           <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-2 z-10 hidden lg:flex gap-3">
@@ -40,7 +40,6 @@ export const About = () => {
             </div>
           </div>
 
-          {/* Vertical divider line - only visible on desktop */}
           <div className="hidden lg:block absolute left-1/2 top-12 bottom-0 w-px bg-gray-300 transform -translate-x-1/2"></div>
         </div>
       </div>
